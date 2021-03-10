@@ -1,0 +1,14 @@
+{
+  "name": "Ejercicio", 
+  "version": "1.0.0",
+  "description": "Expo de introducción a Sass",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Annie Vargas",
+  "license": "license",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
